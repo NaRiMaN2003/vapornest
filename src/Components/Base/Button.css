@@ -1,0 +1,27 @@
+.btn-empty {
+  background: #ffa042;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  margin: 0.5em;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 50px;
+  background: none;
+  border: 1px solid #fff;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background: #ffa042;
+  transform: scale(1.05);
+  border: none;
+}

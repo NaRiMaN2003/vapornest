@@ -1,0 +1,135 @@
+.about-page {
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  background: url(/public/img/about/bb.jpg);
+  background-size: cover;
+  padding: 2em;
+}
+
+.hero-section {
+  text-align: center;
+  margin-bottom: 3em;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  color: #ffa042;
+  font-family: 'Lobster', cursive;
+}
+
+.hero-section p {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+.mission-section {
+  background: rgba(255, 165, 66, 0.1);
+  padding: 1.5em;
+  margin-bottom: 2em;
+  border-left: 4px solid #ffa042;
+}
+
+.mission-section h2 {
+  font-size: 2em;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+.features-section {
+  margin-bottom: 3em;
+}
+
+.features-section h2 {
+  text-align: center;
+  color: #ffa042;
+  font-size: 2em;
+}
+
+.features-section ul {
+  list-style: none;
+  color: #fff;
+  padding: 0;
+}
+
+.features-section ul li {
+  background: rgb(255 255 255 / 10%);;
+  padding: 0.8em;
+  margin: 0.5em 0;
+  border-radius: 5px;
+  text-align: center;
+}
+
+
+.cta-section {
+  text-align: center;
+  margin-top: 3em;
+}
+
+.cta-section h2 {
+  font-size: 2em;
+  color: #ffa042;
+}
+
+.gotoshop-button {
+  background: linear-gradient(135deg, #ffa042, #ff8c00);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  padding: 0.5em 1.3em;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+}
+
+.gotoshop-button:hover {
+  background: linear-gradient(135deg, #ff8c00, #ffa042);
+  transform: scale(1.05);
+}
+
+
+
+.team-section {
+  margin-bottom: 3em;
+  animation: fadeInUp 2s ease-out;
+}
+
+.team-section h2 {
+  margin: 1em 0 1em 1.3em;
+  color: #fff;
+}
+
+.team-gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 2em;
+}
+
+.team-member {
+  background: rgba(255, 165, 66, 0.2);
+  color: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  width: 250px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 10%;
+  margin-bottom: 1em;
+}
+
+.team-member:hover {
+  transform: scale(1.05);
+}
+
+.team-member h3 {
+  font-size: 1.5em;
+  color: #ffa042;
+}
+
+.team-member p {
+  font-size: 1.1em;
+  color: #bbb;
+}

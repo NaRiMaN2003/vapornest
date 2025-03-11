@@ -1,0 +1,69 @@
+.home-style {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+.home-parent {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/public/img/about/homeba.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 10px 80px;
+  overflow: hidden;
+}
+
+.home-info {
+  height: 85%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.home-info .left {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-content: flex-start;
+  justify-content: center;
+  align-items: flex-start;
+  position: relative;
+}
+
+.welcome-header {
+  font-size: 35px;
+  font-family: "Brush Script MT", cursive;
+}
+
+.introduction {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.left p {
+  font-size: 14px;
+  margin: 10px 0 35px 0;
+}
+
+.cta-container {
+  display: flex;
+  gap: 15px;
+  opacity: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+}
+
+@media (max-width: 768px) {
+  .home-info {
+    margin-top: 1em;
+    display: flex;
+    justify-content: flex-start;
+  }
+}

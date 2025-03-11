@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { useRoutes } from "react-router-dom";
+import { UserProvider } from "./Components/Pages/Register/UserContext";
+import "./Components/Styles/Reset.css";
+import NavBar from "./Components/Common/NavBar/NavBar";
+import Routes from "./Components/Routers/Routes";
+import Footer from "./Components/Common/Footer/Footer";
 
-function App() {
+import { useLog } from "./Hooks/LogHook";
+
+export default function App() {
+  let router = useRoutes(Routes);
+  useLog();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <UserProvider>
+      <NavBar />
+      {router}
+      <Footer />
+    </UserProvider>
   );
 }
-
-export default App;
