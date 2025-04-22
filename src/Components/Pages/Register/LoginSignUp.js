@@ -91,7 +91,7 @@ export default function LoginSignUp() {
     try {
       let userInfo = { userName, password, number };
       const response = await axios.post(
-        "https://vapornestentering-default-rtdb.europe-west1.firebasedatabase.app/users.json",
+        "https://vapornestregister-c4961-default-rtdb.firebaseio.com/users.json",
         userInfo
       );
 
@@ -124,7 +124,7 @@ export default function LoginSignUp() {
     setIsLoading(true);
     try {
       const response = await axios.get(
-        "https://vapornestentering-default-rtdb.europe-west1.firebasedatabase.app/users.json"
+        "https://vapornestregister-c4961-default-rtdb.firebaseio.com/users.json"
       );
       const data = response.data;
 

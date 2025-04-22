@@ -123,7 +123,7 @@ export default function Products() {
 
     try {
       const response = await axios.post(
-        "https://vapornestshop-default-rtdb.firebaseio.com/orders.json",
+        "https://vaporneststore-4de5b-default-rtdb.firebaseio.com/orders.json",
         userInfo
       );
 
